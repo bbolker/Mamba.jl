@@ -14,8 +14,8 @@ Categorical(p::T; check_args = true) where {T <: ArrayVariate{1}} =
 
 #################### Dirichlet ####################
 
-Dirichlet(alpha::AbstractVector{T}) where {T<:Real} =
-  Dirichlet(convert(Vector{Float64}, alpha))
+## Dirichlet(alpha::AbstractVector{T}) where {T<:Real} =
+##   Dirichlet(convert(Vector{Float64}, alpha))
 
 
 #################### Multinomial ####################
